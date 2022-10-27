@@ -10,6 +10,10 @@ public class Main {
         System.out.println(book1.getBookName() +book1.getPublicationYear()+ author1.getName()+author1.getLastName());
         book1.setPublicationYear(2022);
         System.out.println("book1.getPublicationYear() = " + book1.getPublicationYear());
+        Author author2 = new Author(" Vladimir"," Nabokov");
+        Book book2=new Book("Lolita", 1955,author2);
+        System.out.println(book2.getBookName() +book2.getPublicationYear()+ author2.getName()+author2.getLastName());
+
 
 
     }
