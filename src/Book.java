@@ -28,6 +28,7 @@ public class Book {
         return "Название книги " + this.bookName + " Год издания " + this.publicationYear + " " + author;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

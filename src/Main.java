@@ -14,8 +14,9 @@ public class Main {
         System.out.println(book2);
         Author author3 = new Author("Vladimir", "Nabokov");
         Book book3 = new Book("Lolita", 1955, author3);
-        System.out.println(book.equals(book1));
         System.out.println(book2.equals(book3));
+        System.out.println(author2.equals(author3));
+        System.out.println(book1.equals(book));
 
     }
 }
